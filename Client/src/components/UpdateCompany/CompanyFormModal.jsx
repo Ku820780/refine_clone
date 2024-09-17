@@ -8,8 +8,11 @@ import CloseIcon from '@mui/icons-material/Close'; // Import Close Icon
 import Swal from 'sweetalert2'; // Import SweetAlert2
 import axios from 'axios';
 import { COMPANY_API_END_POINT } from '../../utils/EndPoints';
+import { useDispatch } from 'react-redux';
+import {  setAllContact} from '../../Redux/companySlice';
 
 const CompanyFormModal = ({ open, onClose, company }) => {
+  const dispatch = useDispatch()
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -59,12 +62,16 @@ const CompanyFormModal = ({ open, onClose, company }) => {
       });
 
       if (res.data.success) {
-        onClose();
+        onClose()
+       
         Swal.fire({
           icon: 'success',
           title: 'Success',
           text: res.data.message || 'Company details updated successfully'
         })
+        const updatedContacts = await axios.get(`${COMPANY_API_END_POINT}/get/newcontact`);
+        dispatch(setAllContact(updatedContacts.data)); // Update Redux store
+        
       } else {
         Swal.fire({
           icon: 'error',

@@ -29,7 +29,7 @@ const useGetAllCompanies = (page = 1, limit = 10, searchQuery = '') => { // Adde
     };
 
     fetchAllCompany();
-  }, [page, limit, searchQuery]); // Added searchQuery as a dependency
+  }, [dispatch,page, limit, searchQuery]); // Added searchQuery as a dependency
 };
 
 export default useGetAllCompanies;

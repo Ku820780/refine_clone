@@ -69,23 +69,6 @@ const CompanyTable = () => {
     }
   };
 
-  // Handle company update after editing
-  const handleCompanyUpdate = async (id, updatedData) => {
-    setIsSubmitting(true); // Set submitting state
-    try {
-      const response = await axios.put(`${COMPANY_API_END_POINT}/contact/update/${id}`, updatedData);
-      if (response.data.success) {
-        dispatch(updateCompanyDetails({ id, updatedData })); // Update company details in Redux store
-        setOpenModal(false); // Close the modal after successful update
-        Swal.fire('Updated!', 'Company details have been updated successfully.', 'success');
-      }
-    } catch (error) {
-      console.error('Error updating company details:', error);
-      Swal.fire('Error!', 'There was an error updating the company details.', 'error');
-    } finally {
-      setIsSubmitting(false); // Reset submitting state
-    }
-  };
 
   // Table columns
   const columns = [
@@ -155,9 +138,8 @@ const CompanyTable = () => {
         <CompanyFormModal
           open={openModal}
           onClose={() => setOpenModal(false)}
-          company={selectedCompany} // Pass the selected company data to the modal
-          onCompanyUpdate={handleCompanyUpdate} // Pass the function to update company details
-          isSubmitting={isSubmitting} // Pass the submitting state to modal
+          company={selectedCompany} 
+          isSubmitting={isSubmitting} 
         />
       )}
     </div>

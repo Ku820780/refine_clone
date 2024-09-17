@@ -4,6 +4,9 @@ import axios from 'axios';
 import { EVENT_API_END_POINT } from '../../utils/EndPoints';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
+import useGetAllEvent from "../../Hooks/useGetAllEvent"
+import { useDispatch } from 'react-redux';
+import { fetchAllEvent } from '../../Redux/companySlice';
 
 // Validation schema with Yup
 const validationSchema = Yup.object({
@@ -17,6 +20,8 @@ const validationSchema = Yup.object({
 });
 
 const AddCalendarModal = ({ onEventAdded }) => {
+  useGetAllEvent()
+  const dispatch = useDispatch()
   const [showModal, setShowModal] = useState(false);
 
   const handleSubmit = async (values, { setSubmitting }) => {
@@ -35,6 +40,7 @@ const AddCalendarModal = ({ onEventAdded }) => {
         console.log(res.data);
         setShowModal(false);
         toast.success(res.data.message || 'Event added successfully!');
+        dispatch(fetchAllEvent())
         if (onEventAdded) onEventAdded(); // Notify parent component
       } else {
         toast.error(res.data.message || 'Something went wrong');

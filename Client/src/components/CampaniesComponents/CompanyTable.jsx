@@ -5,26 +5,26 @@ import CompanyHeader from './SharedData/CompanyHeader';
 import DeleteIcon from '@mui/icons-material/Delete';
 import IconButton from '@mui/material/IconButton';
 import EditIcon from '@mui/icons-material/Edit';
-import Switch from '@mui/material/Switch'; // MUI Switch for toggling status
+import Switch from '@mui/material/Switch'; 
 import { useSelector, useDispatch } from 'react-redux';
 import axios from 'axios';
-import Swal from 'sweetalert2'; // Import SweetAlert2
+import Swal from 'sweetalert2'; 
 import { COMPANY_API_END_POINT } from '../../utils/EndPoints';
-import { removeContact, updateContactStatus, updateCompanyDetails, setAllContact } from '../../Redux/companySlice'; // Import action for updating details
-import CompanyFormModal from '../UpdateCompany/CompanyFormModal'; // Import the modal
-import useGetAllContact from '../../Hooks/useGetAllContact'; // Ensure you're using the custom hook
+import { removeContact, updateContactStatus } from '../../Redux/companySlice'; 
+import CompanyFormModal from '../UpdateCompany/CompanyFormModal'; 
+import useGetAllContact from '../../Hooks/useGetAllContact'; 
 
 const CompanyTable = () => {
   const dispatch = useDispatch();
   const { allContact } = useSelector((store) => store.companies);
-  const [openModal, setOpenModal] = React.useState(false); // State to control modal
-  const [selectedCompany, setSelectedCompany] = React.useState(null); // State for selected company details
-  const [isSubmitting, setIsSubmitting] = React.useState(false); // Track submission state
+  const [openModal, setOpenModal] = React.useState(false); 
+  const [selectedCompany, setSelectedCompany] = React.useState(null); 
+  const [isSubmitting] = React.useState(false); 
 
-  // Fetch the latest contact data when the component mounts
+ 
   useGetAllContact();
 
-  // Handle delete functionality
+
   const handleDelete = async (id) => {
     Swal.fire({
       title: 'Are you sure?',
@@ -69,24 +69,7 @@ const CompanyTable = () => {
     }
   };
 
-  // Handle company update after editing
-  const handleCompanyUpdate = async (id, updatedData) => {
-    setIsSubmitting(true); // Set submitting state
-    try {
-      const response = await axios.put(`${COMPANY_API_END_POINT}/contact/update/${id}`, updatedData);
-      if (response.data.success) {
-        dispatch(updateCompanyDetails({ id, updatedData })); // Update company details in Redux store
-        setOpenModal(false); // Close the modal after successful update
-        Swal.fire('Updated!', 'Company details have been updated successfully.', 'success');
-      }
-    } catch (error) {
-      console.error('Error updating company details:', error);
-      Swal.fire('Error!', 'There was an error updating the company details.', 'error');
-    } finally {
-      setIsSubmitting(false); // Reset submitting state
-    }
-  };
-
+  
   // Table columns
   const columns = [
     { field: 'Name', headerName: 'Name', width: 250 },
@@ -99,8 +82,8 @@ const CompanyTable = () => {
       width: 150,
       renderCell: (params) => (
         <Switch
-          checked={params.row.Status === 'Active'} // Set switch position based on current status
-          onChange={() => handleStatusChange(params.row.id, params.row.Status)} // Handle status toggle
+          checked={params.row.Status === 'Active'} 
+          onChange={() => handleStatusChange(params.row.id, params.row.Status)} 
           color="primary"
         />
       ),
@@ -155,9 +138,8 @@ const CompanyTable = () => {
         <CompanyFormModal
           open={openModal}
           onClose={() => setOpenModal(false)}
-          company={selectedCompany} // Pass the selected company data to the modal
-          onCompanyUpdate={handleCompanyUpdate} // Pass the function to update company details
-          isSubmitting={isSubmitting} // Pass the submitting state to modal
+          company={selectedCompany} 
+          isSubmitting={isSubmitting} 
         />
       )}
     </div>
