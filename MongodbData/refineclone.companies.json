@@ -1,0 +1,238 @@
+[{
+  "_id": {
+    "$oid": "66e1901bf89bf23770cca4c6"
+  },
+  "companyName": "Micro Technology",
+  "title": "MERN Stack Developer",
+  "location": "Patna Bihar",
+  "salary": "400000",
+  "companyLogo": "companyLogo_1726058523061.PNG",
+  "createdAt": {
+    "$date": "2024-09-11T12:42:03.094Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-11T12:42:03.094Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e40f43051942843546beac"
+  },
+  "companyName": "TATA 1mg",
+  "title": "This tata company",
+  "location": "Bhopal",
+  "salary": "50,000",
+  "companyLogo": "companyLogo_1726222147296.png",
+  "createdAt": {
+    "$date": "2024-09-13T10:09:07.324Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-13T10:09:07.324Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e41087051942843546beb0"
+  },
+  "companyName": "Amazone",
+  "title": "Amazone is Ecommerce company",
+  "location": "Delhi",
+  "salary": "70,0000",
+  "companyLogo": "companyLogo_1726222471684.png",
+  "createdAt": {
+    "$date": "2024-09-13T10:14:31.689Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-13T10:14:31.689Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e4533739f964e83a9fb1da"
+  },
+  "companyName": "Filikart",
+  "title": "This is big Company",
+  "location": "Patna Bihar",
+  "salary": "10,00000",
+  "companyLogo": "companyLogo_1726239543666.jpg",
+  "createdAt": {
+    "$date": "2024-09-13T14:59:03.692Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-13T14:59:03.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e55ff4f2b2da97dcf2b85b"
+  },
+  "companyName": "TCS",
+  "title": "That is It Company",
+  "location": "Noida",
+  "salary": "90,00000",
+  "companyLogo": "companyLogo_1726308340121.png",
+  "createdAt": {
+    "$date": "2024-09-14T10:05:40.198Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-14T10:05:40.198Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e5c3c44894cbade7883d16"
+  },
+  "companyName": " Peter England",
+  "title": "Peter England is a popular Indian formal wear brand that is known for its high-quality men's clothing. ",
+  "location": "Mumbai",
+  "salary": "30,00000",
+  "companyLogo": "companyLogo_1726333891996.jpg",
+  "createdAt": {
+    "$date": "2024-09-14T17:11:32.003Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-14T17:11:32.003Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e5c8954894cbade7883e31"
+  },
+  "companyName": "Wibro",
+  "title": "Wibro technology, also known as Wireless Broadband (Wibro), is a wireless communication technology",
+  "location": "noida",
+  "salary": "50,000",
+  "companyLogo": "companyLogo_1726335125337.png",
+  "createdAt": {
+    "$date": "2024-09-14T17:32:05.343Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-14T17:32:05.343Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e5c9134894cbade7883e3f"
+  },
+  "companyName": "Amazone",
+  "title": "This is Ecommerce Company",
+  "location": "Patna Bihar",
+  "salary": "40,000000",
+  "companyLogo": "companyLogo_1726335251260.png",
+  "createdAt": {
+    "$date": "2024-09-14T17:34:11.265Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-14T17:34:11.265Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e679c8d0ed2396114e26f7"
+  },
+  "companyName": "Jio",
+  "title": "Jio! India's largest wireless network and digital ecosystem.",
+  "location": "Mumbai",
+  "salary": "50,000000",
+  "companyLogo": "companyLogo_1726380488062.png",
+  "createdAt": {
+    "$date": "2024-09-15T06:08:08.090Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-15T06:08:08.090Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e680c605805e184daeedae"
+  },
+  "companyName": "Infopercept",
+  "title": "Constantly improve your cybersecurity posture by combining 'attacker's mind' and 'defender's brain'. Design proactive responses to every action of an attacker.",
+  "location": "Ahmdabad",
+  "salary": "4400000",
+  "companyLogo": "companyLogo_1726382278682.jpg",
+  "createdAt": {
+    "$date": "2024-09-15T06:37:58.997Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-15T06:37:58.997Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e6843905805e184daeedd8"
+  },
+  "companyName": "TATA 1mg",
+  "title": "Medical company",
+  "location": "Bhopal",
+  "salary": "400,0000",
+  "companyLogo": "companyLogo_1726383161957.png",
+  "createdAt": {
+    "$date": "2024-09-15T06:52:41.964Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-15T06:52:41.964Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e6874f05805e184daeedf4"
+  },
+  "companyName": "Amazone",
+  "title": "Ecommerce",
+  "location": "Noida",
+  "salary": "30,00000",
+  "companyLogo": "companyLogo_1726383951837.png",
+  "createdAt": {
+    "$date": "2024-09-15T07:05:51.868Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-15T07:05:51.868Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e91f2fbe8bfe181a36c1f3"
+  },
+  "companyName": "ret",
+  "title": "rtrey",
+  "location": "etr343",
+  "salary": "rterr",
+  "companyLogo": "companyLogo_1726553903513.png",
+  "createdAt": {
+    "$date": "2024-09-17T06:18:23.522Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-17T06:18:23.522Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e91f68be8bfe181a36c217"
+  },
+  "companyName": "rudra",
+  "title": "vcb",
+  "location": "vcbvc",
+  "salary": "3",
+  "companyLogo": "companyLogo_1726553960817.jpg",
+  "createdAt": {
+    "$date": "2024-09-17T06:19:20.822Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-17T06:19:20.822Z"
+  },
+  "__v": 0
+}]

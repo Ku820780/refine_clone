@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "66e1631be1cb32f34448b76e"
+  },
+  "fullname": "Avimanue Kumar",
+  "email": "avimanue@gmail.com",
+  "phoneNumber": 8207809054,
+  "password": "$2b$10$4RnM6bCeVjgfvJJK08DsQe4G8sOCd9GyAq1QO0r28BnO/ASxuPdb6",
+  "profile": "profile_1726047003285.PNG",
+  "createdAt": {
+    "$date": "2024-09-11T09:30:03.420Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-11T09:30:03.420Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e1c49963f03fc0b57cdf25"
+  },
+  "fullname": "Manish Kumar",
+  "email": "manish@gmail.com",
+  "phoneNumber": 4563926352,
+  "password": "$2b$10$enPgZfu69zS6xyoZmr2bNOLy92W6VynHNwbSpUfbmHM0v60WNNrHO",
+  "profile": "profile_1726071961497.jpeg",
+  "createdAt": {
+    "$date": "2024-09-11T16:26:01.878Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-11T16:26:01.878Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e1c4fc63f03fc0b57cdf29"
+  },
+  "fullname": "Manish Kumar",
+  "email": "mk820780@gmail.com",
+  "phoneNumber": 8207809054,
+  "password": "$2b$10$kaZpfpoqdVDHPhLf7TAmnuNQXzMnlcVbxzOofl0XtRfV/Fq6ygPdK",
+  "profile": "profile_1726072060177.jpg",
+  "createdAt": {
+    "$date": "2024-09-11T16:27:40.291Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-11T16:27:40.291Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e27b4a40434d1a8275f3a8"
+  },
+  "fullname": "Rudar",
+  "email": "rudra@gmail.com",
+  "phoneNumber": 3432114342,
+  "password": "$2b$10$.m0hfGT6K15venaFqTaMjOY6UG5JRLl51WmdJ/S.obuAjR7nAGOei",
+  "profile": "profile_1726118729943.jpeg",
+  "createdAt": {
+    "$date": "2024-09-12T05:25:30.399Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-12T05:25:30.399Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e2ca5ecc6ca2e565af1a51"
+  },
+  "fullname": "Rahul Kumar",
+  "email": "rahul@gmail.com",
+  "phoneNumber": 8207809054,
+  "password": "$2b$10$3SOS0YKleDrbFla3ir8hTuPsXDmKvrlo4I.1Gn3nxAohbc9AdYrLi",
+  "profile": "profile_1726138973669.jpeg",
+  "createdAt": {
+    "$date": "2024-09-12T11:02:54.148Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-12T11:02:54.148Z"
+  },
+  "__v": 0
+}]

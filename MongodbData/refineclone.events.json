@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "66e6be449f8ad49a7162d18d"
+  },
+  "title": "Meeting",
+  "startDate": {
+    "$date": "2024-09-20T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-09-27T00:00:00.000Z"
+  },
+  "description": "Meeting Today",
+  "createdAt": {
+    "$date": "2024-09-15T11:00:20.519Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-16T07:58:18.775Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e6becb9f8ad49a7162d191"
+  },
+  "title": "Studay",
+  "startDate": {
+    "$date": "2024-09-20T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-09-30T00:00:00.000Z"
+  },
+  "description": "Today Start Study",
+  "createdAt": {
+    "$date": "2024-09-15T11:02:35.494Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-16T08:01:16.338Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e7e6142c511d6151b5c4c8"
+  },
+  "title": "Sports",
+  "startDate": {
+    "$date": "2024-10-08T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-10-12T00:00:00.000Z"
+  },
+  "description": "We Start The game Exact Time",
+  "createdAt": {
+    "$date": "2024-09-16T08:02:28.154Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-16T08:02:28.154Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66e91eedbe8bfe181a36c1ea"
+  },
+  "title": "serewd",
+  "startDate": {
+    "$date": "2024-09-20T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2024-10-11T00:00:00.000Z"
+  },
+  "description": "werwe",
+  "createdAt": {
+    "$date": "2024-09-17T06:17:17.649Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-17T15:20:37.813Z"
+  },
+  "__v": 0
+}]
